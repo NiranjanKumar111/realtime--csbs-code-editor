@@ -20,5 +20,5 @@ export const initSocket = async () => {
     transports: ["websocket"],
   };
 
-  return io("https://realtime-csbs-code-editor.onrender.com", options);
+  return io("https://realtime-csbs-code-editor.onrender.com/", options);
 };
